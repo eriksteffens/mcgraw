@@ -1,0 +1,265 @@
+/*General Styles*/
+html { 
+  background: url("../img/mcgraw-background.jpg") no-repeat center center fixed; 
+  opacity: 70%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+ 
+}
+
+#main{
+	padding-left: 300px;
+	padding-top: 100px;
+}
+
+@media (max-width: 992px) {
+	#main {padding-left: 0};
+}
+
+.container{
+
+}
+
+.lower-nav{
+	top:100px;
+}
+
+.user-display{
+	color: black;
+	line-height: 25px;
+	text-align: right;
+	position: absolute;
+  top: 50%;
+  right: 0;
+  padding-right: 10px;
+  transform: translateY(-50%);
+}
+
+.menu-row{
+	position: relative;
+}
+
+.nav-icon{
+	line-height: 48px;
+	font-size: 30px;
+	color: grey;
+	float:left;
+	border-right: 2px solid grey;
+	padding-right: 32px;
+}
+.nav-text{
+	padding-left: 32px;
+	float:left;
+}
+
+
+.downbtn{
+	margin-right: 10px;
+	float:left;
+	font-size: 20px;
+	height: 3rem;
+	line-height: 3rem;
+}
+.mcfile{
+	float:left;
+	width: 80%;
+}
+
+
+.material-icons {
+	color: black;
+}
+
+.full-width{
+	width: 100%;
+}
+.center-text{
+	text-align: center;
+}
+
+.checklist-title{
+	font-weight: bold;
+	font-size: 120%;
+	margin-top: 10px;
+}
+
+/*Overwriting materialize form color defaults*/
+
+#login i.icon-white{
+	color:black;
+}
+
+#login .input-field{
+
+	color: black;
+}
+
+/*.border-field{
+	box-shadow: -5px -5px 20px -10px #333 !important;
+}*/
+
+.full-height{
+	height: 100%;
+}
+
+/*Navbar Styles*/
+
+.nav-wrapper{
+	background-color: #f5f5f5 !important;
+	position:relative;
+}
+
+nav{
+	position: fixed;
+	width: 100%;
+	height: 300px;
+	background-color: #f5f5f5 !important;
+	z-index: 1000;
+}
+
+nav .brand-logo{
+	margin-left: 20px;
+}
+
+#nav-logo{
+	margin-top:26px;
+	height: auto;
+	width: 140px;
+}
+
+.clear{
+	clear: both;
+}
+
+nav {
+	height: 100px;
+
+}
+
+.nav-item {
+	font-family: 
+	color: black;
+	font-size: 22px;
+	margin-top: 20px;
+}
+
+.nav-wrapper ul {
+	margin-right: 35vw;
+}
+
+.nav-item{
+	color: black;
+}
+nav ul a {
+	color: grey;
+}
+/*Login Page*/
+
+#login-photo{
+	width: 65%;
+	height: auto;
+	margin-top: 15vh;
+}
+
+/*List View*/
+
+#asset-list{
+	padding-top: 20px;
+	background-color: rgba(250,250,250,1);
+	width: 100%;
+	height: 100%;
+}
+
+.asset-item{
+	background-color: white;
+	height: 65px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	margin: 20px;
+}
+
+.asset-row{
+	height: 100%;
+	padding-bottom: 0;
+	position: relative;
+}
+
+.check-error{
+	color: red;
+	font-weight: bold;
+}
+
+
+.asset-label{
+	margin-left: 15px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.asset-btn{
+	position: absolute;
+	margin-right: 15px;
+	float:right;
+	right: 40px;
+
+	top: 50%;
+  	transform: translateY(-50%);
+
+}
+
+.valign-wrapper .valign .asset-btn{
+	float:right;
+	right: 40px;
+
+}
+
+#main .material-icons{
+	color: white;
+}
+
+.addbutton{
+	position: absolute;
+top: 50%;
+  	transform: translateY(-50%);
+	margin-left: 0.75rem;
+}
+
+.QuickAdd{
+	padding-right: 1.5rem !important;
+}
+
+.quickaddbutton{
+	position: absolute;
+top: 50%;
+  	transform: translateY(-50%);
+	margin-right: 0.75rem;
+}
+
+.modal {
+	width: 100%;
+	height: 100%;
+	top: 0% !important;
+	max-height: 100%;
+	z-index: 2000;
+}
+
+/*Overwriting webkit autofill settings*/
+
+@-webkit-keyframes autofill {
+    to {
+        color: black;
+        background: transparent;
+    }
+}
+
+input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+}
+
